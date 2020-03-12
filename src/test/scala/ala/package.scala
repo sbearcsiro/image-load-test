@@ -13,12 +13,6 @@ package object ala {
 
   val baseUrl: String = localUrl
 
-  val devIds: Array[String] = Array(
-    "e2c1bb3e-4229-4688-9a2b-d2c2a5e08534",
-    "38220392-4499-4df3-8638-e9e0e8cdfe81",
-    "dd37a8e4-3234-4688-9e99-9247bc41fd03"
-  )
-
   val localIds: Array[String] = Array(
     "2e218384-4998-4412-8dba-cee548987afa",
     "25734e4e-00d0-4d53-9f99-f1d780d10570",
@@ -31,7 +25,7 @@ package object ala {
     "8ba76c4d-9d15-480f-9300-e156b89ecc28"
   )
 
-  val prodIds: Array[String] = Array(
+  val devIds: Array[String] = Array(
     "e2c1bb3e-4229-4688-9a2b-d2c2a5e08534",
     "e1d9c920-8204-4d9b-a762-f5419e4045bd",
     "5d1ca4ec-0364-4a21-895d-dd668e07a36c",
@@ -82,6 +76,59 @@ package object ala {
     "28691310-bec7-4d36-a896-c62ce8cebef8",
     "b8571b8c-1053-4099-bf91-9c2a1c5b24ad",
     "e3d2c195-0a50-44f0-b219-34293afab10b"
+  )
+
+  val prodIds: Array[String] = Array(
+    "c527ff8c-f756-4e51-ae26-02dd40c0194d",
+    "2f35bf56-7ffb-42aa-9a5c-49537f8f1d8c",
+    "f22c8ba4-ba9a-438e-a88b-6612b34309dc",
+    "256f1933-b03c-42ce-a303-3cbc047e2875",
+    "108b06a4-b28d-4785-9fbc-9a5d942f07ee",
+    "6569d6b7-9974-4143-bc7c-bab358796551",
+    "0d7a1884-2f0b-4ba9-9004-ef61801b8f4a",
+    "d18a2991-0bc5-443f-836f-428fef04550b",
+    "3e239e80-0adf-40e6-89aa-836bd98c9b1a",
+    "666dd112-287a-4d3b-9504-ccb1144ebdc1",
+    "81ada552-d1e6-4c07-94aa-592ab8478cdf",
+    "b05165c8-993f-48f4-8147-d684d9f59853",
+    "5f55cd54-83f0-4bed-81e9-c6304043c8ae",
+    "e2097426-9d1b-42b6-b7ce-f096ff91f2b4",
+    "fd67b9f1-53b2-437e-b8cd-5ab7534d4688",
+    "d675db4d-28c4-4cef-9c16-9c67667ce451",
+    "948a55f1-40b7-4f8b-b94b-d2357a8c8937",
+    "f096108e-ae15-4ef8-9853-19d8c3508326",
+    "2d889977-5f10-4253-afca-0fa2833f2e27",
+    "b5133e84-6845-4ce0-b1f6-b86d725e5175",
+    "36a44b3f-3077-4140-a25b-fde8245a32f6",
+    "fcee19c7-430d-4772-b72a-f87e09776f6c",
+    "c37cf8e5-f9a8-405f-a13c-fcaa8c193c9e",
+    "ff0e4c21-c4ab-4d29-adb8-6b7a9eddbc4d",
+    "16658763-010a-4b4b-8afd-c193f2985a32",
+    "ca9e042d-8acd-4525-803e-e3ed228c8a80",
+    "246826df-4cd1-4ee5-b2bf-1734012492b7",
+    "9b36fa11-eaa5-4863-99c3-c10112800c06",
+    "abf71e62-3019-4444-8de7-6a9285c5503b",
+    "0f8200c6-b7aa-4903-b699-ebda946c15fc",
+    "9b522c87-b3a6-40bf-8b7e-30176c5f75c0",
+    "8cf8709e-90ea-42ce-b497-5b97f23cdaf6",
+    "841787d1-0d44-4008-88fc-5292f55d57a3",
+    "1adbb695-3c67-4f1f-8c4a-c356c2cbd708",
+    "285ae8ab-ec27-43ca-b9e4-40f5290298df",
+    "18f4b144-efe4-4ac4-9206-7efbac39e920",
+    "07edabe3-9f48-4075-89ef-1a1f156597a1",
+    "819e837a-8117-46d6-8bec-f5b2fd4faaa0",
+    "aba902a4-e129-4bf6-9107-3877e9b7cf3b",
+    "8449abfb-bcbf-430e-9ad4-443f9701e367",
+    "25b94703-c31c-4f0f-8fe6-07a655686a21",
+    "beaafb54-7dfc-4ba4-998a-0f20f174c0db",
+    "853b17df-6fab-4371-8bec-e65870952998",
+    "ef6ae330-ced8-4154-bc28-3fb3ed471b01",
+    "1e1bfa37-5886-4b56-a977-a8c844d2b998",
+    "fcaeaa4b-e90a-43e4-8292-0640d5a6e6d7",
+    "e3da884f-d8c3-4b4e-b756-8969a1985629",
+    "52e1e1ca-7a10-4e7b-a721-44a61c47539e",
+    "20aa2db7-a9a4-4e6a-aee4-fb65756941ff",
+    "51d69f39-605b-4a46-a985-65508c7e5508"
   )
   
   val currentIds: Array[String] = localIds
