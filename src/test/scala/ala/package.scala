@@ -9,6 +9,7 @@ import io.gatling.http.request.builder.HttpRequestBuilder
 package object ala {
   val prodUrl = "https://images.ala.org.au"
   val devUrl = "https://images-dev.ala.org.au"
+  val testUrl = "https://images-test.ala.org.au"
   val localUrl = "https://devt.ala.org.au/images"
 
   val baseUrl: String = localUrl
@@ -77,6 +78,8 @@ package object ala {
     "b8571b8c-1053-4099-bf91-9c2a1c5b24ad",
     "e3d2c195-0a50-44f0-b219-34293afab10b"
   )
+
+  val testIds: Array[String] = devIds
 
   val prodIds: Array[String] = Array(
     "c527ff8c-f756-4e51-ae26-02dd40c0194d",
